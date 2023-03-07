@@ -1,0 +1,30 @@
+.header {
+  position: sticky;
+  top: -26rem;
+  min-height: 30rem;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+
+  background: linear-gradient(45deg, rgb(154, 241, 73), rgb(52, 52, 239))
+}
+
+.logo {
+  position: sticky;
+  top: 0;
+}
+
+.logo img {
+  filter: drop-shadow(0px 6.7px 5.3px rgba(0, 0, 0, 0.061)) drop-shadow(0px 22.3px 17.9px rgba(0, 0, 0, 0.09)) drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.25));
+}
+
+.title {
+  position: sticky;
+  top: 0;
+  font-size: 3rem;
+  color: var(--text-color, white);
+  text-shadow:
+  0px 6.7px 5.3px rgba(0, 0, 0, 0.061),
+  0px 22.3px 17.9px rgba(0, 0, 0, 0.09),
+  0px 100px 80px rgba(0, 0, 0, 0.25);
+}
